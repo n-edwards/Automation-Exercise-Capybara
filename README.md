@@ -10,11 +10,11 @@ Install Bundler: https://bundler.io/
 Navigate to this repo's root directory in your Terminal or command prompt, and run `bundle install` to install the Ruby gems specified in Gemfile.
 
 Make sure you have chromedriver: https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver
+Explicitly set its location if necessary, in spec_helper (This repo was put together on Windows, which required a little extra boilerplate. Hasn't been tested on Mac or elsewhere).
 
 From the root directory, run `rspec` to kick off the script.
 
 
-This repo was put together on Windows, which required a little extra boilerplate. Hasn't been tested on Mac or elsewhere.
 
 A successful run should end with something like:
 ```
