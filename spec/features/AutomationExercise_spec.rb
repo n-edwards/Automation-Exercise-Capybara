@@ -2,7 +2,7 @@ require 'spec_helper'
 
 # Quick example of how to use Page Objects. Not fully implemented across tests.
 class MainPage < SitePrism::Page
-  set_url '/'
+  set_url '/' # Just use app_host from spec_helper for now.
   element :product_search_field, "input[placeholder='What are you looking for?']"
 
   def search_product(prod)
