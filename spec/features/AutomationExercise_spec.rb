@@ -28,7 +28,7 @@ describe "Williams Sonoma automation exercise", type: :feature do
   it "Checks adding to cart" do
 
     find('.topnav-cooks-tools').hover
-    sleep 1 # Use some sleeps for elements that fade in or are slow to load. TODO: add clearer waits or more finders.
+    sleep 2 # Use some sleeps for elements that fade in or are slow to load. TODO: add clearer waits or more finders.
     find('a[href="https://www.williams-sonoma.com/shop/cooks-tools/salt-pepper-mills/?cm_type=gnav"]').click
     find('li[data-product="{productSku:\'9523796\',groupId:\'graviti-electric-salt-and-pepper-mills\'}"]').click
     # expect(page).to have_css('button[aria-label="Add to Cart"]') # Optional
